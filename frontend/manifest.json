@@ -1,0 +1,13 @@
+{
+  "name": "Шар Уфы",
+  "short_name": "SharuFy",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#FDFBF7",
+  "background_color": "#FDFBF7",
+  "description": "Городской мем-сервис и афиша для Шар Уфы.",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
