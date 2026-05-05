@@ -6,7 +6,7 @@ import random
 from datetime import datetime
 from aiogram import Bot, Dispatcher, types
 from aiogram.filters import Command
-from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, WebAppInfo
 from models import get_session, Meme
 
 BOT_TOKEN = os.getenv('BOT_TOKEN')
