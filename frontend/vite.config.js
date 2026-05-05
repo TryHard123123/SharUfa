@@ -6,8 +6,8 @@ export default defineConfig({
   server: {
     port: 4173,
     allowedHosts: [
-      'strum-probiotic-hangnail.ngrok-free.dev',
-      '.ngrok-free.dev'
+      'shar-ufa.vercel.app',
+      '.vercel.app'
     ],
     proxy: {
       '/api': {

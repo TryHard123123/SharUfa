@@ -1,5 +1,10 @@
 function getApiUrl() {
-  return '/api';
+  // На Vercel — прокси через /api
+  if (window.location.hostname !== 'localhost') {
+    return '/api';
+  }
+  // Локально — прямой доступ к бэкенду
+  return 'http://localhost:8000';
 }
 
 const API_URL = getApiUrl();

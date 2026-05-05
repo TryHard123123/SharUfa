@@ -67,6 +67,7 @@ def get_random_meme(user_id: int):
 @dp.message(Command('start'))
 async def cmd_start(message: types.Message):
     keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text='🌀 Открыть Шар Уфы', web_app=WebAppInfo(url='https://shar-ufa.vercel.app'))],
         [InlineKeyboardButton(text='🎲 Мем дня', callback_data='meme')],
         [InlineKeyboardButton(text='🎭 Афиша', callback_data='kipish')]
     ])
